@@ -1,0 +1,69 @@
+Arguments: 
+  /Users/dragondemacmini/.nvm/versions/node/v10.18.0/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js
+
+PATH: 
+  /Users/dragondemacmini/.nvm/versions/node/v10.18.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dragondemacmini/.nvm/versions/node/v10.18.0/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.18.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: connect ECONNREFUSED 61.184.215.186:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1107:14)
+
+npm manifest: 
+  {
+    "name": "CSS_power",
+    "version": "1.0.0",
+    "description": "各种CSS特效Demo",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "storybook": "start-storybook -p 6008",
+      "build-storybook": "build-storybook"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/HiddenDragon129/CSS_power.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/HiddenDragon129/CSS_power/issues"
+    },
+    "homepage": "https://github.com/HiddenDragon129/CSS_power#readme",
+    "devDependencies": {
+      "@storybook/addon-actions": "^6.3.12",
+      "@storybook/addon-essentials": "^6.3.12",
+      "@storybook/addon-links": "^6.3.12",
+      "@storybook/node-logger": "^6.3.12",
+      "@storybook/preset-create-react-app": "^3.2.0",
+      "@storybook/react": "^6.3.12"
+    },
+    "dependencies": {},
+    "eslintConfig": {
+      "overrides": [
+        {
+          "files": [
+            "**/*.stories.*"
+          ],
+          "rules": {
+            "import/no-anonymous-default-export": "off"
+          }
+        }
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
